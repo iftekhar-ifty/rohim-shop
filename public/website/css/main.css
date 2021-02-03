@@ -1,0 +1,137 @@
+
+    .searchbar{
+    margin-bottom: auto;
+    margin-top: auto;
+    height: 45px;
+    background-color: #353b48;
+    border-radius: 30px;
+    padding: 2px;
+    }
+select#category_select {
+    background: #2b3342;
+    border: 0px;
+    /* caret-color: red; */
+    color: #f2f2f2;
+}
+    .search_input{
+    color: white;
+    border: 0;
+    outline: 0;
+    background: none;
+    width: 0;
+    caret-color:transparent;
+    line-height: 40px;
+    padding: 0 10px;
+    width: 520px;
+    caret-color:red;
+    }
+
+
+div#navbarSupportedContent {
+    text-align: center;
+    justify-content: center;
+}
+a.navbar-brand {
+    font-size: 27px;
+    color: #fff;
+    font-weight: 800;
+    font-family: monospace;
+    font-style: italic;
+}
+  /*  .searchbar:hover > .search_input{
+    padding: 0 10px;
+    width: 450px;
+    caret-color:red;
+    transition: width 0.4s linear;
+    }
+
+    .searchbar:hover > .search_icon{
+    background: white;
+    color: #e74c3c;
+    }
+*/
+
+.search_icon{
+    height: 40px;
+    width: 40px;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color:white;
+    text-decoration:none;
+    background: #353b48;
+    border: 0;
+    }
+.cart_info {
+    text-align: center;
+    background: #f1f1f1;
+    padding: 10px;
+}
+
+.photo img {
+    width: 261px;
+    height: 260px;
+}
+
+.cart_info p {
+    font-size: 18px;
+    font-weight: 500;
+    /* line-height: 16px; */
+}
+
+
+
+.price p {
+    line-height: 1px;
+}
+
+button.custom {
+    background: #212529;
+    width: 150px;
+    height: 40px;
+    border: 0px;
+    border-radius: 3%;
+    color: #fff;
+    font-weight: 700;
+}
+
+
+.col-item {
+    transition: .5s;
+}
+
+.col-item:hover {
+    box-shadow: 0 10px 50px 0 rgb(148 148 148 / 50%);
+}
+
+.filter_bow {
+    border: 1px solid#c6c6c6;
+    padding: 19px;
+}
+
+
+.price-range-search {
+  width: 70px;
+  background-color: #f9f9f9;
+  border: 1px solid #6e6666;
+  display: inline-block;
+  height: 30px;
+  margin-bottom: 20px;
+  font-size: 16px; }
+
+.price-range-field {
+  width: 84px;
+  background-color: none;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  color: black;
+  height: 30px;
+  text-align: center;
+  font-size: 14px;
+  }
+
+.search-results-block {
+  position: relative;
+  display: block;
+  clear: both; }
